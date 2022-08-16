@@ -64,7 +64,7 @@
                                 <connections>
                                     <outlet property="imageView" destination="kAe-q9-YeA" id="Nl5-kO-U35"/>
                                     <outlet property="priceLabel" destination="87U-MA-2Rt" id="kdm-eK-NLg"/>
-                                    <segue destination="ldP-bP-RJB" kind="presentation" identifier="showDetail" id="YfM-gp-2Of"/>
+                                    <segue destination="ldP-bP-RJB" kind="presentation" identifier="showDetail" modalPresentationStyle="fullScreen" id="YfM-gp-2Of"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -111,7 +111,7 @@
             <objects>
                 <viewController id="ldP-bP-RJB" customClass="StoreDetailViewController" customModule="CollectionViewDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xs1-Mn-jnY">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="66R-Sh-3BV">
@@ -159,7 +159,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDq-9a-CxL">
-                                <rect key="frame" x="0.0" y="730" width="390" height="60"/>
+                                <rect key="frame" x="0.0" y="750" width="390" height="60"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="HQ6-v9-CmF"/>

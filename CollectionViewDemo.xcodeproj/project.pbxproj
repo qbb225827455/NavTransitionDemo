@@ -64,19 +64,51 @@
 		EEE4072328ABB3350085EB75 /* CollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EEE4074528ABD07D0085EB75 /* Extension */,
+				EEE4074428ABD02E0085EB75 /* Model */,
+				EEE4074328ABD02C0085EB75 /* View */,
+				EEE4074228ABD0230085EB75 /* Controller */,
 				EEE4072428ABB3350085EB75 /* AppDelegate.swift */,
 				EEE4072628ABB3350085EB75 /* SceneDelegate.swift */,
 				EEE4072A28ABB3350085EB75 /* Main.storyboard */,
 				EEE4072D28ABB3370085EB75 /* Assets.xcassets */,
 				EEE4072F28ABB3370085EB75 /* LaunchScreen.storyboard */,
 				EEE4073228ABB3370085EB75 /* Info.plist */,
-				EEE4073828ABB5610085EB75 /* StoreCollectionViewController.swift */,
-				EEE4073A28ABB5950085EB75 /* StoreCollectionViewCell.swift */,
-				EEE4073C28ABB7930085EB75 /* Icon.swift */,
-				EEE4073E28ABC0570085EB75 /* StoreDetailViewController.swift */,
-				EEE4074028ABC3EB0085EB75 /* UIView+Snapshot.swift */,
 			);
 			path = CollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		EEE4074228ABD0230085EB75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4073828ABB5610085EB75 /* StoreCollectionViewController.swift */,
+				EEE4073E28ABC0570085EB75 /* StoreDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEE4074328ABD02C0085EB75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4073A28ABB5950085EB75 /* StoreCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEE4074428ABD02E0085EB75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4073C28ABB7930085EB75 /* Icon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEE4074528ABD07D0085EB75 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4074028ABC3EB0085EB75 /* UIView+Snapshot.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
