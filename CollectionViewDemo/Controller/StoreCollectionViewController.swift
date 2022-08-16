@@ -26,6 +26,7 @@ class StoreCollectionViewController: UICollectionViewController {
     var selectedIcons: [(icon: Icon, snapshot: UIImage)] = []
     
     let slideDownTransition = SlideDownTransitionAnimator()
+    let slideRightTransition = SlideRightTransitionAnimator()
     
     @IBOutlet var shareBtn: UIBarButtonItem!
     
@@ -88,6 +89,8 @@ class StoreCollectionViewController: UICollectionViewController {
             switch selectIndexPaths[0].row {
             case 0:
                 toViewController.transitioningDelegate = slideDownTransition
+            case 1:
+                toViewController.transitioningDelegate = slideRightTransition
             default:
                 break;
             }

@@ -18,6 +18,7 @@
 		EEE4073F28ABC0570085EB75 /* StoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4073E28ABC0570085EB75 /* StoreDetailViewController.swift */; };
 		EEE4074128ABC3EB0085EB75 /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4074028ABC3EB0085EB75 /* UIView+Snapshot.swift */; };
 		EEE4074928ABFE200085EB75 /* SlideDownTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4074828ABFE200085EB75 /* SlideDownTransition.swift */; };
+		EEE4074B28AC0A270085EB75 /* SlideRightTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4074A28AC0A270085EB75 /* SlideRightTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		EEE4073E28ABC0570085EB75 /* StoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailViewController.swift; sourceTree = "<group>"; };
 		EEE4074028ABC3EB0085EB75 /* UIView+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
 		EEE4074828ABFE200085EB75 /* SlideDownTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideDownTransition.swift; sourceTree = "<group>"; };
+		EEE4074A28AC0A270085EB75 /* SlideRightTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideRightTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				EEE4073A28ABB5950085EB75 /* StoreCollectionViewCell.swift */,
 				EEE4074828ABFE200085EB75 /* SlideDownTransition.swift */,
+				EEE4074A28AC0A270085EB75 /* SlideRightTransition.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				EEE4073D28ABB7930085EB75 /* Icon.swift in Sources */,
 				EEE4072728ABB3350085EB75 /* SceneDelegate.swift in Sources */,
 				EEE4074128ABC3EB0085EB75 /* UIView+Snapshot.swift in Sources */,
+				EEE4074B28AC0A270085EB75 /* SlideRightTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
