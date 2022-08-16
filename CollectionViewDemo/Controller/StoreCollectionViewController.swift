@@ -28,6 +28,7 @@ class StoreCollectionViewController: UICollectionViewController {
     let slideDownTransition = SlideDownTransitionAnimator()
     let slideRightTransition = SlideRightTransitionAnimator()
     let popTransition = PopTransitionAnimator()
+    let rotateTransition = RotateTransitionAnimator()
     
     @IBOutlet var shareBtn: UIBarButtonItem!
     
@@ -94,6 +95,8 @@ class StoreCollectionViewController: UICollectionViewController {
                 toViewController.transitioningDelegate = slideRightTransition
             case 2:
                 toViewController.transitioningDelegate = popTransition
+            case 3:
+                toViewController.transitioningDelegate = rotateTransition
             default:
                 break;
             }
