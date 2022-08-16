@@ -25,6 +25,8 @@ class StoreCollectionViewController: UICollectionViewController {
     var shareEnabled = false
     var selectedIcons: [(icon: Icon, snapshot: UIImage)] = []
     
+    let slideDownTransition = SlideDownTransitionAnimator()
+    
     @IBOutlet var shareBtn: UIBarButtonItem!
     
     @IBAction func shareBtnTapped(sender: AnyObject) {
@@ -77,6 +79,20 @@ class StoreCollectionViewController: UICollectionViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let toViewController = segue.destination
+        let sourceViewController = segue.source as! StoreCollectionViewController
+        
+        if let selectIndexPaths = sourceViewController.collectionView.indexPathsForSelectedItems {
+            
+            switch selectIndexPaths[0].row {
+            case 0:
+                toViewController.transitioningDelegate = slideDownTransition
+            default:
+                break;
+            }
+        }
+        
         if segue.identifier == "showDetail" {
             if let indexPath = collectionView.indexPathsForSelectedItems {
                 let destinationVC = segue.destination as! StoreDetailViewController

@@ -17,6 +17,7 @@
 		EEE4073D28ABB7930085EB75 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4073C28ABB7930085EB75 /* Icon.swift */; };
 		EEE4073F28ABC0570085EB75 /* StoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4073E28ABC0570085EB75 /* StoreDetailViewController.swift */; };
 		EEE4074128ABC3EB0085EB75 /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4074028ABC3EB0085EB75 /* UIView+Snapshot.swift */; };
+		EEE4074928ABFE200085EB75 /* SlideDownTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4074828ABFE200085EB75 /* SlideDownTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		EEE4073C28ABB7930085EB75 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		EEE4073E28ABC0570085EB75 /* StoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailViewController.swift; sourceTree = "<group>"; };
 		EEE4074028ABC3EB0085EB75 /* UIView+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
+		EEE4074828ABFE200085EB75 /* SlideDownTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideDownTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				EEE4073A28ABB5950085EB75 /* StoreCollectionViewCell.swift */,
+				EEE4074828ABFE200085EB75 /* SlideDownTransition.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE4074928ABFE200085EB75 /* SlideDownTransition.swift in Sources */,
 				EEE4073B28ABB5950085EB75 /* StoreCollectionViewCell.swift in Sources */,
 				EEE4072528ABB3350085EB75 /* AppDelegate.swift in Sources */,
 				EEE4073928ABB5610085EB75 /* StoreCollectionViewController.swift in Sources */,
