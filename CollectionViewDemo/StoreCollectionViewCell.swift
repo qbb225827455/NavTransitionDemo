@@ -9,4 +9,6 @@ import UIKit
 
 class StoreCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var priceLabel: UILabel!
 }

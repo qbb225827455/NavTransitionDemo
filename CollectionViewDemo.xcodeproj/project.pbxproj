@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		EEE4072528ABB3350085EB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4072428ABB3350085EB75 /* AppDelegate.swift */; };
 		EEE4072728ABB3350085EB75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4072628ABB3350085EB75 /* SceneDelegate.swift */; };
-		EEE4072928ABB3350085EB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4072828ABB3350085EB75 /* ViewController.swift */; };
 		EEE4072C28ABB3350085EB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4072A28ABB3350085EB75 /* Main.storyboard */; };
 		EEE4072E28ABB3370085EB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4072D28ABB3370085EB75 /* Assets.xcassets */; };
 		EEE4073128ABB3370085EB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4072F28ABB3370085EB75 /* LaunchScreen.storyboard */; };
+		EEE4073928ABB5610085EB75 /* StoreCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4073828ABB5610085EB75 /* StoreCollectionViewController.swift */; };
+		EEE4073B28ABB5950085EB75 /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4073A28ABB5950085EB75 /* StoreCollectionViewCell.swift */; };
+		EEE4073D28ABB7930085EB75 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4073C28ABB7930085EB75 /* Icon.swift */; };
+		EEE4073F28ABC0570085EB75 /* StoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4073E28ABC0570085EB75 /* StoreDetailViewController.swift */; };
+		EEE4074128ABC3EB0085EB75 /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4074028ABC3EB0085EB75 /* UIView+Snapshot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEE4072128ABB3350085EB75 /* CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE4072428ABB3350085EB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEE4072628ABB3350085EB75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEE4072828ABB3350085EB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EEE4072B28ABB3350085EB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEE4072D28ABB3370085EB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE4073028ABB3370085EB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEE4073228ABB3370085EB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE4073828ABB5610085EB75 /* StoreCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewController.swift; sourceTree = "<group>"; };
+		EEE4073A28ABB5950085EB75 /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		EEE4073C28ABB7930085EB75 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		EEE4073E28ABC0570085EB75 /* StoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailViewController.swift; sourceTree = "<group>"; };
+		EEE4074028ABC3EB0085EB75 /* UIView+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				EEE4072428ABB3350085EB75 /* AppDelegate.swift */,
 				EEE4072628ABB3350085EB75 /* SceneDelegate.swift */,
-				EEE4072828ABB3350085EB75 /* ViewController.swift */,
 				EEE4072A28ABB3350085EB75 /* Main.storyboard */,
 				EEE4072D28ABB3370085EB75 /* Assets.xcassets */,
 				EEE4072F28ABB3370085EB75 /* LaunchScreen.storyboard */,
 				EEE4073228ABB3370085EB75 /* Info.plist */,
+				EEE4073828ABB5610085EB75 /* StoreCollectionViewController.swift */,
+				EEE4073A28ABB5950085EB75 /* StoreCollectionViewCell.swift */,
+				EEE4073C28ABB7930085EB75 /* Icon.swift */,
+				EEE4073E28ABC0570085EB75 /* StoreDetailViewController.swift */,
+				EEE4074028ABC3EB0085EB75 /* UIView+Snapshot.swift */,
 			);
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEE4072928ABB3350085EB75 /* ViewController.swift in Sources */,
+				EEE4073B28ABB5950085EB75 /* StoreCollectionViewCell.swift in Sources */,
 				EEE4072528ABB3350085EB75 /* AppDelegate.swift in Sources */,
+				EEE4073928ABB5610085EB75 /* StoreCollectionViewController.swift in Sources */,
+				EEE4073F28ABC0570085EB75 /* StoreDetailViewController.swift in Sources */,
+				EEE4073D28ABB7930085EB75 /* Icon.swift in Sources */,
 				EEE4072728ABB3350085EB75 /* SceneDelegate.swift in Sources */,
+				EEE4074128ABC3EB0085EB75 /* UIView+Snapshot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
